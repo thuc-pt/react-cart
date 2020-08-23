@@ -1,0 +1,24 @@
+.group-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .fa-cart-arrow-down {
+    padding: 1rem 0.9rem;
+    background: purple;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.4s;
+    &:hover {
+      background: #4a024a;
+    }
+  }
+}
+.fa-star {
+  color: #f9c11a;
+}
+.description {
+  text-align: center;
+  color: gray;
+  font-size: 14px;
+}

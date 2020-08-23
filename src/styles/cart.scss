@@ -1,0 +1,13 @@
+.img-in-cart {
+  width: 100px;
+}
+.table {
+  th, td {
+    vertical-align: unset !important;
+  }
+  &__width {
+    &--15 {
+      width: 15%;
+    }
+  }
+}
